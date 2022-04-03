@@ -1,3 +1,5 @@
+// ignore_for_file: unused_field, unused_element
+
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:portfolio/sections/about/about.dart';
@@ -63,7 +65,7 @@ class _MainPageState extends State<MainPage> {
     } else if (i == 3) {
       return const Portfolio();
     } else if (i == 4) {
-      return  Contact();
+      return  const Contact();
     } else if (i == 5) {
       return const Footer();
     } else {
@@ -103,6 +105,6 @@ class _MainPageState extends State<MainPage> {
 
   @override
   Widget build(BuildContext context) {
-    return FlutterLogo();
+    return const FlutterLogo();
   }
 }
